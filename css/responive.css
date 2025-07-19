@@ -1,0 +1,283 @@
+@media screen and (min-width:768px) and (max-width:992px) {
+    .home .dancing-img {
+        width: 90%;
+    }
+
+    .home .header-text .butttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 20px;
+    }
+
+    .chefs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 33px;
+    }
+
+    .chefs .chef {
+        width: calc(50% - 50px);
+    }
+
+    .chef:hover .social-box {
+        transform: translateX(275px) translateY(-530px);
+    }
+
+    .chefs h2 {
+        font-family: "Amatic SC", sans-serif;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .img-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        flex-direction: column;
+        height: 1405px;
+        justify-content: start;
+    }
+
+    .img {
+        width: 50%;
+    }
+
+    .img h4 , .img p {
+        width: 100%;
+    }
+
+    .img1 {
+        order: 1;
+    }
+
+    .img2 {
+        order: 2;
+    }
+
+    .img3 {
+        order: 3;
+    }
+
+    .img4 {
+        order: 4;
+    }
+
+    .img5 {
+        order: 5;
+    }
+
+    .img6 {
+        order: 6;
+    }
+
+    .img7 {
+        order: 7;
+    }
+
+    .contact {
+        text-align: center;
+    }
+    
+    .contact .contact-d-f .contact-d .contact-d-item {
+        width: 45%;
+        height: 75px;
+    }
+
+    footer {
+        display: flex;
+        /* flex-direction: row-reverse; */
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    /* footer{
+        
+    } */
+
+    footer .one {
+        order: 1;
+        width: 47%;
+        height: fit-content;
+    }
+
+    footer .two {
+        order: 3;
+        width: 100%;
+        height: fit-content;
+    }
+
+    footer .three {
+        order: 2;
+        width: 47%;
+        height: fit-content;
+    }
+
+    footer .two .subscribe form input {
+        width: 70%;
+    }
+
+    footer .two .subscribe form button {
+        width: 20%;
+    }
+    .service-boxes .service {
+        width: 20%;
+    }
+}
+
+
+@media screen and (min-width:992px) {
+    .home {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+        padding-top: 283px;
+        padding-bottom: 20px;
+        padding-right: 80px;
+        padding-left: 80px;
+        text-align: left;
+    }
+
+    .home .dancing-img {
+        width: 35%;
+        margin-left: 40px;
+    }
+
+    .home .header-text {
+        width: 50%;
+    }
+
+    .home .header-text .butttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 20px;
+    }
+
+    .chefs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 33px;
+    }
+
+    .chefs .chef {
+        width: 30%;
+    }
+
+    .chef .social-box {
+        transform: translateX(390px) translateY(-530px);
+    }
+
+    .chef:hover .social-box {
+        transform: translateX(335px) translateY(-530px);
+    }
+
+    .chefs h2 {
+        font-family: "Amatic SC", sans-serif;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .img-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        flex-direction: column;
+        height: 1000px;
+        width: 100%;
+        justify-content: start;
+    }
+
+    .img {
+        width: 30%;
+    }
+
+    .img h4 , .img p {
+        width: 100%;
+    }
+
+    .img1 {
+        order: 1;
+    }
+
+    .img2 {
+        order: 5;
+    }
+
+    .img3 {
+        order: 2;
+    }
+
+    .img4 {
+        order: 4;
+    }
+
+    .img5 {
+        order: 3;
+    }
+
+    .img6 {
+        order: 6;
+    }
+
+    .img7 {
+        order: 7;
+    }
+
+    .contact {
+        text-align: center;
+    }
+
+    .contact .name-i,.contact .email-i{
+        width: 43%;
+    }
+
+    .contact .contact-d-f .contact-d .contact-d-item {
+        width: 45%;
+        height: 75px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        gap: 30px;
+    }
+
+    /* footer{
+        
+    } */
+
+    footer .one {
+        order: 1;
+        width: 25%;
+        height: fit-content;
+    }
+
+    footer .two {
+        order: 2;
+        width: 50%;
+        height: fit-content;
+    }
+
+    footer .three {
+        order: 3;
+        width: 25%;
+        height: fit-content;
+    }
+
+    footer .two .subscribe form input {
+        width: 70%;
+    }
+
+    footer .two .subscribe form button {
+        width: 20%;
+    }
+    .service-boxes .service {
+        width: 20%;
+    }
+}
